@@ -24,7 +24,7 @@ export default function skills() {
     <>
       <Layout>
         <main className="container flex min-h-screen items-center justify-center p-0 lg:max-w-screen-lg">
-          <div className="mx-auto my-28 mb-10 h-full w-11/12 rounded-lg bg-zinc-800 p-8 py-12 text-slate-300 shadow md:w-11/12 lg:w-full">
+          <div className="bg-skill-primary mx-auto my-28 mb-10 h-full w-11/12 rounded-lg p-8 py-12 text-slate-300 shadow md:w-11/12 lg:w-full">
             <h1 className="text-xl font-bold text-slate-400 sm:text-3xl">
               My skills and knowledges
             </h1>
@@ -32,7 +32,7 @@ export default function skills() {
               {skills.map(({ name, img }) => (
                 <div
                   key={name}
-                  className="flex h-[155px] flex-col items-center justify-between rounded bg-zinc-600 p-5 shadow duration-300 hover:translate-y-3 hover:scale-105 hover:shadow-lg hover:shadow-black md:h-[185px] lg:h-[185px]"
+                  className="bg-skill-secondary flex h-[155px] flex-col items-center justify-between rounded p-5 shadow duration-300 hover:translate-y-3 hover:scale-105 hover:shadow-lg hover:shadow-black md:h-[185px] lg:h-[185px]"
                 >
                   <div className="flex h-[100px] w-[100px] items-center justify-center">
                     <img

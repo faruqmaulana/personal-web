@@ -24,9 +24,12 @@ module.exports = {
         ],
       },
       colors: {
-        primary: "#191A1E",
+        primary: "#1A202C",
         primary1: "#86949f",
         secondary: "#E5E8EB",
+        onhover: "#2A61CC",
+        "skill-primary": "#212938",
+        "skill-secondary": "#252d3d",
       },
       screens: {
         "2xl": "1320px",

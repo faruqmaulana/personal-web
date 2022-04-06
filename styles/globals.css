@@ -3,13 +3,35 @@
 @tailwind utilities;
 
 #nprogress .bar {
-  border: solid #86949f;
+  border: solid 1px #2a61cc;
+  box-shadow: 0 0 7px #5271ff, 0 0 7px #5271ff, 0 0 10px #5271ff;
 }
 
 #nprogress .peg {
-  box-shadow: 0 0 10px #ffbb00, 0 0 5px #ffbb00;
+  box-shadow: 0 0 10px #2a61cc, 0 0 5px #2a61cc;
 }
 
 #nprogress .spinner-icon {
   display: none;
+}
+
+/* {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #fff;
+} */
+
+/* For Chrome, EDGE, Opera, Others */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #2a61cc;
+  border: 2px solid rgb(29, 31, 40);
 }

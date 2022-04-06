@@ -20,11 +20,11 @@ export default function Home() {
                 layout="intrinsic"
               ></Image>
             </span>
-            <div className="align-center mx-auto mt-10 flex w-full flex-col items-center text-secondary">
-              <h1 className="text-2xl font-bold">
+            <div className="align-center mx-auto mt-10 flex w-full flex-col items-center text-center text-secondary">
+              <h1 className="mb-3 text-lg font-bold md:text-2xl lg:text-2xl">
                 {"Hi! I'm Faruq Maulana 👋"}
               </h1>
-              <h2 className="mb-5 text-lg font-bold">
+              <h2 className="mb-5 text-sm font-bold md:text-lg lg:text-lg">
                 Frontend Web Developer, 19 years old.
               </h2>
               <hr className="w-full border-solid border-slate-600 opacity-50" />
