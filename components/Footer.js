@@ -8,9 +8,10 @@ export default function Footer() {
             <p className="pt-3 text-sm font-bold text-secondary">
               Created by{" "}
               <a
-                href="https://github.com/faruqmaulana"
                 target="_blank"
+                rel="noreferrer"
                 className="text-sky-700"
+                href="https://github.com/faruqmaulana"
               >
                 Faruq Maulana
               </a>
