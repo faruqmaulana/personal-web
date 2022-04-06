@@ -21,20 +21,13 @@ export default function Home() {
               ></Image>
             </span>
             <div className="align-center mx-auto mt-10 flex w-full flex-col items-center text-secondary">
-              <h1 className="text-2xl font-bold">Hi! I'm Faruq Maulana 👋</h1>
+              <h1 className="text-2xl font-bold">
+                {"Hi! I'm Faruq Maulana 👋"}
+              </h1>
               <h2 className="mb-5 text-lg font-bold">
                 Frontend Web Developer, 19 years old.
               </h2>
               <hr className="w-full border-solid border-slate-600 opacity-50" />
-              {/* <p className="mb-3">
-                Hello, my name is M. Faruq Maulana. Usually called Faruq. I'm
-                currently 19 years old. Born and live in Lamongan, East Java,
-                Indonesia.
-              </p>
-              <p>
-                When the holidays come, I spend all my time just learning about
-                web programming and creating some fun open source projects.
-              </p> */}
               <p></p>
             </div>
           </div>
