@@ -1,10 +1,22 @@
 export default function Footer() {
   return (
     <>
-      <div className="container flex justify-center">
-        <div className="flex h-12 w-full flex-col items-center justify-center bg-primary shadow-lg lg:max-w-screen-lg">
-          <hr className="mb-3 w-full border-solid border-slate-600 opacity-50" />
-          <p className="pb-4 text-primary1">Deep love 🖤</p>
+      <hr className=" w-full border-solid border-black opacity-50 shadow-lg shadow-black" />
+      <div className=" bg-zinc-900">
+        <div className="container flex justify-center">
+          <div className="flex w-full flex-col items-center justify-center shadow-lg lg:max-w-screen-lg">
+            <p className="pt-3 text-sm font-bold text-secondary">
+              Created by{" "}
+              <a
+                href="https://github.com/faruqmaulana"
+                target="_blank"
+                className="text-sky-700"
+              >
+                Faruq Maulana
+              </a>
+            </p>
+            <p className="mt-2 pb-3 text-sm text-primary1">with deep love 🖤</p>
+          </div>
         </div>
       </div>
     </>
