@@ -28,7 +28,7 @@ export default function skills() {
             <h1 className="text-xl font-bold text-slate-300 sm:text-3xl">
               My skills and knowledges
             </h1>
-            <div className="mt-5 mb-5 grid grid-cols-2 gap-6 md:grid-cols-3 md:gap-7 lg:grid-cols-4 lg:gap-10">
+            <div className="mt-5 mb-5 grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-7 lg:grid-cols-4 lg:gap-10">
               {skills.map(({ name, img }) => (
                 <div
                   key={name}
