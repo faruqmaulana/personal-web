@@ -29,3 +29,7 @@
   background: #2a61cc;
   border: 2px solid rgb(29, 31, 40);
 }
+
+.space {
+  margin: 0 0.125em 0.333em 0;
+}

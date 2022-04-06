@@ -25,7 +25,7 @@ export default function skills() {
       <Layout>
         <main className="container flex min-h-screen items-center justify-center p-0 lg:max-w-screen-lg">
           <div className="mx-auto my-28 mb-10 h-full w-11/12 rounded-lg bg-skill-primary p-8 py-12 text-slate-300 shadow md:w-11/12 lg:w-full">
-            <h1 className="text-xl font-bold text-slate-400 sm:text-3xl">
+            <h1 className="text-xl font-bold text-slate-300 sm:text-3xl">
               My skills and knowledges
             </h1>
             <div className="mt-5 mb-5 grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4">
