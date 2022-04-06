@@ -45,7 +45,7 @@ export default function ProjectCard({
               <>
                 <p
                   key={name}
-                  className="space mx-1 rounded-lg bg-stack px-3 py-[3px] text-[7px] text-stack-color md:text-xs lg:text-xs"
+                  className="space mx-1 rounded-lg bg-stack px-3 py-[3px] text-[8px] text-stack-color md:text-xs lg:text-xs"
                 >
                   {name}
                 </p>
