@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 #nprogress .bar {
-  border: solid 1px #2a61cc;
-  box-shadow: 0 0 7px #5271ff, 0 0 7px #5271ff, 0 0 10px #5271ff;
+  border: 2px solid #2a61cc;
+  box-shadow: 0 0 7px #2a61cc;
 }
 
 #nprogress .peg {
@@ -15,12 +15,6 @@
   display: none;
 }
 
-/* {
-  scrollbar-width: thin;
-  scrollbar-color: #000 #fff;
-} */
-
-/* For Chrome, EDGE, Opera, Others */
 ::-webkit-scrollbar {
   width: 12px;
 }

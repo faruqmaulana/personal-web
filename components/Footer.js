@@ -16,7 +16,7 @@ export default function Footer() {
                 Faruq Maulana
               </a>
             </p>
-            <p className="mt-2 pb-3 text-sm text-primary1">with deep love 🖤</p>
+            <p className="mt-2 pb-3 text-sm text-primary1">with deep love 🤍</p>
           </div>
         </div>
       </div>
