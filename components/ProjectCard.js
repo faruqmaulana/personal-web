@@ -1,9 +1,10 @@
 import Image from "next/image";
-import api from "../public/projects/api1.png";
+import api from "../public/projects/api.png";
 import merpp from "../public/projects/merpp.png";
 import covidAnxiety from "../public/projects/covid-anxiety.png";
 import covidBed from "../public/projects/covid-bed.png";
 import waniEkspor from "../public/projects/wani-ekspor.png";
+import kanalVirtual from "../public/projects/kanal-virtual.png";
 
 export default function ProjectCard({
   idKey,
@@ -14,7 +15,7 @@ export default function ProjectCard({
 }) {
   return (
     <>
-      <div className="flex flex-col items-center justify-center rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-3 hover:shadow-lg hover:shadow-black">
+      <div className="flex flex-col items-center justify-center rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-1 hover:shadow-lg hover:shadow-black">
         <Image
           src={
             idKey === 1
@@ -22,7 +23,7 @@ export default function ProjectCard({
               : idKey === 2
               ? merpp
               : idKey === 3
-              ? merpp
+              ? kanalVirtual
               : idKey === 4
               ? covidAnxiety
               : idKey === 5
