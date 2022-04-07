@@ -37,6 +37,7 @@ export default function ProjectCard({
                 ? covidBed
                 : waniEkspor
             }
+            alt={projectTitle}
             layout="intrinsic"
             placeholder="blur"
             quality="100"
@@ -111,6 +112,7 @@ export default function ProjectCard({
                         ? covidBed
                         : waniEkspor
                     }
+                    alt={projectTitle}
                     layout="intrinsic"
                     placeholder="blur"
                     quality="100"

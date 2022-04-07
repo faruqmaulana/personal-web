@@ -13,11 +13,12 @@ export default function Home() {
                 src={profile}
                 width={250}
                 height={250}
-                className="rounded-full"
-                placeholder="blur"
+                alt={"faruq maulana profile"}
                 quality="100"
                 objectFit="cover"
+                placeholder="blur"
                 layout="intrinsic"
+                className="rounded-full"
               ></Image>
             </span>
             <div className="align-center mx-auto mt-10 flex w-full flex-col items-center text-center text-secondary">
