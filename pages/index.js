@@ -29,23 +29,20 @@ export default function Home() {
               </h2>
               <hr className="mb-2 w-full border-solid border-slate-600 opacity-50" />
               <p className="text-sm leading-relaxed text-slate-300 sm:text-base">
-                Hello there, my full name is M. Faruq Maulana, and people who's
-                know me call me Faruq. For now, I live in Suarabaya, East Java
-                and I'm working as a freelance Frontend Web developer. I am a
-                student majoring in Informatics Engineering,{" "}
+                {
+                  "Hello there, my full name is M. Faruq Maulana, and people who's know me call me Faruq. For now, I live in Suarabaya, East Java and I'm working as a freelance Frontend Web developer. I am a student majoring in Informatics Engineering, "
+                }
                 <a href="https://www.untag-sby.ac.id/" className="text-onhover">
                   17 August 1945 University Surabaya (UNTAG).
-                </a>{" "}
-                I Love make something that useful for the others like make an
-                application website and I'm prefer in Frontend website
-                development using ReactJS or Next Js, and until now, I'm still
-                learning, because everyday the technologies is continues to
-                develop.
+                </a>
+                {
+                  " I Love make something that useful for the others like make an application website and I'm prefer in Frontend website development using ReactJS or Next Js, and until now, I'm still learning, because everyday the technologies is continues to develop."
+                }
               </p>
-              <p class="mb-2 mt-5 p-2 text-sm  leading-relaxed text-slate-300 sm:text-base">
-                My social media account, let's connect with me :
+              <p className="mb-2 mt-5 p-2 text-sm  leading-relaxed text-slate-300 sm:text-base">
+                {"My social media account, let's connect with me :"}
               </p>
-              <div class="flex flex-row justify-center">
+              <div className="flex flex-row justify-center">
                 <span className="text-slate-300 duration-300 hover:scale-95 hover:text-onhover">
                   <a
                     href="https://github.com/faruqmaulana/"
@@ -58,7 +55,7 @@ export default function Home() {
                       height="1.2em"
                       preserveAspectRatio="xMidYMid meet"
                       viewBox="0 0 24 24"
-                      class="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
+                      className="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
                     >
                       <path
                         fill="currentColor"
@@ -79,7 +76,7 @@ export default function Home() {
                       height="1.2em"
                       preserveAspectRatio="xMidYMid meet"
                       viewBox="0 0 24 24"
-                      class="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
+                      className="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
                     >
                       <path
                         fill="currentColor"
@@ -100,7 +97,7 @@ export default function Home() {
                       height="1.2em"
                       preserveAspectRatio="xMidYMid meet"
                       viewBox="0 0 24 24"
-                      class="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
+                      className="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
                     >
                       <path
                         fill="currentColor"
@@ -121,7 +118,7 @@ export default function Home() {
                       height="1.2em"
                       preserveAspectRatio="xMidYMid meet"
                       viewBox="0 0 24 24"
-                      class="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
+                      className="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
                     >
                       <path
                         fill="currentColor"
