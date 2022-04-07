@@ -15,7 +15,7 @@ export default function project() {
             Projects
           </h1>
           <hr className="w-full border-solid border-gray-700 opacity-50 shadow-lg shadow-black" />
-          <div className="mx-auto my-20 mb-10 h-full w-11/12 rounded-lg bg-skill-primary p-8 py-12 text-slate-300 shadow md:w-11/12 lg:w-full">
+          <div className="mx-auto my-10 h-full w-11/12 rounded-lg bg-skill-primary p-8 py-12 text-slate-300 shadow md:w-11/12 lg:w-full">
             <div className="mt-5 mb-5 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
               {projects.map(
                 ({
@@ -26,12 +26,14 @@ export default function project() {
                   github,
                   demoLink,
                   demo,
+                  responsive,
                   stack,
                 }) => (
                   <ProjectCard
                     key={projectTitle}
                     idKey={id}
                     projectTitle={projectTitle}
+                    responsive={responsive}
                     desc={descProject}
                     stack={stack}
                   >

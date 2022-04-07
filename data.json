@@ -8,6 +8,7 @@
       "github": "GitHub",
       "demoLink": "https://jakpost.vercel.app/api",
       "demo": "Demo",
+      "responsive": null,
       "stack": [
         { "name": "nextjs" },
         { "name": "axios" },
@@ -25,11 +26,13 @@
       "github": "GitHub",
       "demoLink": "https://merpp-beta.vercel.app/",
       "demo": "Demo",
+      "responsive": "(Desktop only)",
       "stack": [
         { "name": "HTML" },
         { "name": "CSS" },
         { "name": "JavaScript" },
-        { "name": "html2pdf" }
+        { "name": "html2pdf" },
+        { "name": "Bootstrap" }
       ]
     },
     {
@@ -40,6 +43,7 @@
       "github": "GitHub",
       "demoLink": "https://kanal-virtual.vercel.app/",
       "demo": "Demo",
+      "responsive": "(Mobile phone only)",
       "stack": [
         { "name": "NextJs" },
         { "name": "Strapi V3" },
@@ -55,11 +59,13 @@
       "github": "GitHub",
       "demoLink": "https://covid-anxiety.herokuapp.com/",
       "demo": "Demo",
+      "responsive": "(Responsive Web)",
       "stack": [
         { "name": "HTML" },
         { "name": "CSS" },
         { "name": "JavaScript" },
-        { "name": "PHP" }
+        { "name": "PHP" },
+        { "name": "Bootstrap" }
       ]
     },
     {
@@ -70,11 +76,13 @@
       "github": "GitHub",
       "demoLink": "https://covid-bed-indo.herokuapp.com/",
       "demo": "Demo",
+      "responsive": "(Responsive Web)",
       "stack": [
         { "name": "HTML" },
         { "name": "CSS" },
         { "name": "JavaScript" },
-        { "name": "PHP" }
+        { "name": "PHP" },
+        { "name": "Bootstrap" }
       ]
     },
     {
@@ -85,6 +93,7 @@
       "github": "GitHub",
       "demoLink": "https://wanifresh.com/",
       "demo": "Demo",
+      "responsive": "(Responsive Web)",
       "stack": [
         { "name": "HTML" },
         { "name": "CSS" },
