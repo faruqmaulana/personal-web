@@ -47,7 +47,7 @@ export default function ProjectCard({
           <h2 className="mt-3 text-xl font-bold text-secondary">
             {projectTitle}
           </h2>
-          <p className="mb-3 text-xs sm:text-sm">{responsive}</p>
+          <p className="mb-2 text-xs sm:text-sm">{responsive}</p>
           <hr className="mb-3 w-full border-solid border-gray-600" />
           <p className="text-sm md:text-lg lg:text-lg">{desc}</p>
           <div className="mt-3 flex flex-wrap justify-center">
