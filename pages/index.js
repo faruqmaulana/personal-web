@@ -28,9 +28,9 @@ export default function Home() {
                 Frontend Web Developer, 19 years old.
               </h2>
               <hr className="mb-2 w-full border-solid border-slate-600 opacity-50" />
-              <p className="text-sm leading-relaxed text-slate-300 sm:text-base">
+              <p className="px-2 text-sm leading-relaxed text-slate-300 sm:text-base">
                 {
-                  "Hello there, my full name is M. Faruq Maulana, and people who's know me call me Faruq. For now, I live in Suarabaya, East Java and I'm working as a freelance Frontend Web developer. I am a student majoring in Informatics Engineering, "
+                  "Hello there, my full name is M. Faruq Maulana, and people who's know me call me Faruq. For now, I live in Surabaya, East Java and I'm working as a freelance Frontend Web developer. I am a student majoring in Informatics Engineering, "
                 }
                 <a href="https://www.untag-sby.ac.id/" className="text-onhover">
                   17 August 1945 University Surabaya (UNTAG).
@@ -39,7 +39,7 @@ export default function Home() {
                   " I Love make something that useful for the others like make an application website and I'm prefer in Frontend website development using ReactJS or Next Js, and until now, I'm still learning, because everyday the technologies is continues to develop."
                 }
               </p>
-              <p className="mb-2 mt-5 p-2 text-sm  leading-relaxed text-slate-300 sm:text-base">
+              <p className="mb-2 mt-5 p-2 px-7 text-sm leading-relaxed text-slate-300 sm:text-base">
                 {"My social media account, let's connect with me :"}
               </p>
               <div className="flex flex-row justify-center">
