@@ -33,7 +33,7 @@ export default function skills() {
               {skills.map(({ name, img }) => (
                 <div
                   key={name}
-                  className="flex h-[155px] flex-col items-center justify-between rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-3 hover:scale-105 hover:shadow-lg hover:shadow-black md:h-[185px] lg:h-[185px]"
+                  className="flex h-[155px] flex-col items-center justify-between rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-1 hover:scale-105 hover:shadow-lg hover:shadow-black md:h-[185px] md:hover:translate-y-2 lg:h-[185px] lg:hover:translate-y-3"
                 >
                   <div className="flex h-[100px] w-[100px] items-center justify-center">
                     <img
