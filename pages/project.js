@@ -37,9 +37,11 @@ export default function project() {
                     desc={descProject}
                     stack={stack}
                   >
-                    <Button link={githubLink} desc={github}>
-                      <Github />
-                    </Button>
+                    {id !== 2 && (
+                      <Button link={githubLink} desc={github}>
+                        <Github />
+                      </Button>
+                    )}
                     <Button link={demoLink} desc={demo}>
                       <Demo />
                     </Button>
