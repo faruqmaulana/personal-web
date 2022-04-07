@@ -9,7 +9,7 @@ export default function project() {
   const projects = data.projects;
   return (
     <>
-      <Layout>
+      <Layout titlePage={"Projects | FM space"}>
         <main className="container flex min-h-screen flex-col items-center justify-center p-0 lg:max-w-screen-lg">
           <h1 className="mb-5 mt-[100px] text-xl font-bold text-slate-300 sm:text-3xl md:mt-[140px] lg:mt-[140px]">
             Projects

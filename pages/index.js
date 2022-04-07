@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 export default function Home() {
   return (
     <>
-      <Layout>
+      <Layout titlePage={"FM space"}>
         <main className="container flex min-h-screen lg:max-w-screen-lg">
           <div className="mt-16 flex h-full w-full flex-col items-center justify-center rounded-lg py-12">
             <span>
