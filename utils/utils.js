@@ -1,6 +1,7 @@
 import HTML from "../public/skills/html.svg";
 import CSS from "../public/skills/css.svg";
 import JavaScript from "../public/skills/js.svg";
+import PHP from "../public/skills/php.svg";
 import ReactLogo from "../public/skills/react.svg";
 import Jquery from "../public/skills/jquery.svg";
 import Cheerio from "../public/skills/cheerio.svg";
@@ -19,6 +20,7 @@ export const stack = [
   { name: "HTML", img: <HTML /> },
   { name: "CSS", img: <CSS /> },
   { name: "JavaScript", img: <JavaScript /> },
+  { name: "PHP", img: <PHP /> },
   { name: "React", img: <ReactLogo /> },
   { name: "jQuery", img: <Jquery /> },
   { name: "Cheerio", img: <Cheerio /> },
