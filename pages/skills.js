@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { stack } from "./ListSkill";
+import { stack } from "../utils/utils";
 
 export default function skills() {
   return (
@@ -20,7 +20,7 @@ export default function skills() {
                   <div>{img}</div>
                   {/* prettier-ignore */}
                   <p className={`mt-2 text-center font-lexend font-bold ${
-                      name === "Visual Studio Code" ? "text-xs md:text-base lg:text-base" : name === "Tailwind CSS" ? "text-xs md:text-base lg:text-base" : name === "Styled Components" ? "text-xs md:text-base lg:text-base" : "text-sm md:text-lg lg:text-lg"}`}>
+                      name === "Visual Studio Code" ? "text-xs md:text-base lg:text-base" : name === "Tailwind CSS" ? "text-xs md:text-base lg:text-base" : name === "Styled Components" ? "text-xs sm:text-xs md:text-sm lg:text-base" : "text-sm md:text-lg lg:text-lg"}`}>
                     {name}
                   </p>
                 </div>
