@@ -113,7 +113,9 @@ export default function ProjectCard({
                         ? covidAnxiety
                         : idKey === 5
                         ? covidBed
-                        : waniEkspor
+                        : idKey === 6
+                        ? waniEkspor
+                        : roseapp
                     }
                     alt={projectTitle}
                     layout="intrinsic"
