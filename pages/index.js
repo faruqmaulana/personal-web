@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Layout titlePage={"FM space"}>
-        <main className="container flex min-h-screen lg:max-w-screen-lg">
+        <main className="container flex min-h-screen items-center justify-center lg:max-w-screen-lg">
           <div className="mt-16 flex h-full w-full flex-col items-center justify-center rounded-lg py-12">
             <span>
               <Image

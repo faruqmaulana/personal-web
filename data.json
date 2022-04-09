@@ -13,7 +13,7 @@
         { "name": "nextjs" },
         { "name": "axios" },
         { "name": "cheerio" },
-        { "name": "puppeter" },
+        { "name": "puppeteer" },
         { "name": "turndownjs" },
         { "name": "chrome-aws-lambda" }
       ]
