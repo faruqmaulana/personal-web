@@ -2,6 +2,8 @@ import HTML from "../public/skills/html.svg";
 import CSS from "../public/skills/css.svg";
 import JavaScript from "../public/skills/js.svg";
 import PHP from "../public/skills/php.svg";
+import CPlus from "../public/skills/c++.svg";
+import Java from "../public/skills/java.svg";
 import ReactLogo from "../public/skills/react.svg";
 import Jquery from "../public/skills/jquery.svg";
 import Cheerio from "../public/skills/cheerio.svg";
@@ -9,6 +11,7 @@ import NextJs from "../public/skills/nextjs.svg";
 import TailwindCSS from "../public/skills/tailwind.svg";
 import Bootstrap from "../public/skills/bootstrap.svg";
 import StyledComponents from "../public/skills/sc.svg";
+import MySQL from "../public/skills/mysql.svg";
 import VisualStudioCode from "../public/skills/vsc.svg";
 import Git from "../public/skills/git.svg";
 import Github from "../public/skills/github.svg";
@@ -21,6 +24,8 @@ export const stack = [
   { name: "CSS", img: <CSS /> },
   { name: "JavaScript", img: <JavaScript /> },
   { name: "PHP", img: <PHP /> },
+  { name: "C++", img: <CPlus /> },
+  { name: "Java OOP", img: <Java /> },
   { name: "React", img: <ReactLogo /> },
   { name: "jQuery", img: <Jquery /> },
   { name: "Cheerio", img: <Cheerio /> },
@@ -28,8 +33,9 @@ export const stack = [
   { name: "Tailwind CSS", img: <TailwindCSS /> },
   { name: "Bootstrap", img: <Bootstrap /> },
   { name: "Styled Components", img: <StyledComponents /> },
-  { name: "Visual Studio Code", img: <VisualStudioCode /> },
+  { name: "MySQL", img: <MySQL /> },
   { name: "Git", img: <Git /> },
+  { name: "Visual Studio Code", img: <VisualStudioCode /> },
   { name: "Github", img: <Github /> },
   { name: "Vercel", img: <Vercel /> },
   { name: "Netlify", img: <Netlify /> },

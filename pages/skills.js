@@ -10,7 +10,7 @@ export default function skills() {
             My skills and knowledges
           </h1>
           <hr className="w-full border-solid border-gray-700 opacity-50 shadow-lg shadow-black" />
-          <div className="mx-auto my-10 h-full w-11/12 rounded-lg bg-skill-primary p-8 py-12 text-slate-300 shadow md:w-11/12 lg:w-full">
+          <div className="mx-auto my-10 h-full w-11/12 rounded-lg bg-skill-primary px-4 py-12 text-slate-300 shadow sm:px-8 md:w-11/12 lg:w-full">
             <div className="mt-5 mb-5 grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-7 lg:grid-cols-4 lg:gap-10">
               {stack.map(({ name, img }) => (
                 <div
