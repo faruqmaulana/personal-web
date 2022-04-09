@@ -3,6 +3,7 @@ import api from "../public/projects/api.png";
 import merpp from "../public/projects/merpp.png";
 import covidAnxiety from "../public/projects/covid-anxiety.png";
 import covidBed from "../public/projects/covid-bed.png";
+import roseapp from "../public/projects/roseapp.png";
 import waniEkspor from "../public/projects/wani-ekspor.png";
 import kanalVirtual from "../public/projects/kanal-virtual.png";
 import { useState } from "react";
@@ -35,7 +36,9 @@ export default function ProjectCard({
                 ? covidAnxiety
                 : idKey === 5
                 ? covidBed
-                : waniEkspor
+                : idKey === 6
+                ? waniEkspor
+                : roseapp
             }
             alt={projectTitle}
             layout="intrinsic"

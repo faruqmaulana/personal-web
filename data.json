@@ -28,11 +28,11 @@
       "demo": "Demo",
       "responsive": "(Desktop only)",
       "stack": [
-        { "name": "HTML" },
-        { "name": "CSS" },
-        { "name": "JavaScript" },
+        { "name": "html" },
+        { "name": "css" },
+        { "name": "javascript" },
         { "name": "html2pdf" },
-        { "name": "Bootstrap" }
+        { "name": "bootstrap" }
       ]
     },
     {
@@ -45,10 +45,10 @@
       "demo": "Demo",
       "responsive": "(Mobile phone only)",
       "stack": [
-        { "name": "NextJs" },
+        { "name": "nextjs" },
         { "name": "Strapi V3" },
-        { "name": "Bootstrap 5" },
-        { "name": "StyledComponents" }
+        { "name": "bootstrap 5" },
+        { "name": "styled-components" }
       ]
     },
     {
@@ -61,12 +61,12 @@
       "demo": "Demo",
       "responsive": "(Responsive Web)",
       "stack": [
-        { "name": "HTML" },
-        { "name": "CSS" },
-        { "name": "JavaScript" },
-        { "name": "PHP" },
-        { "name": "jQuery" },
-        { "name": "Bootstrap" }
+        { "name": "html" },
+        { "name": "css" },
+        { "name": "javascript" },
+        { "name": "php" },
+        { "name": "jquery" },
+        { "name": "bootstrap" }
       ]
     },
     {
@@ -79,12 +79,12 @@
       "demo": "Demo",
       "responsive": "(Responsive Web)",
       "stack": [
-        { "name": "HTML" },
-        { "name": "CSS" },
-        { "name": "JavaScript" },
-        { "name": "PHP" },
-        { "name": "jQuery" },
-        { "name": "Bootstrap" }
+        { "name": "html" },
+        { "name": "css" },
+        { "name": "javascript" },
+        { "name": "php" },
+        { "name": "jquery" },
+        { "name": "bootstrap" }
       ]
     },
     {
@@ -97,10 +97,25 @@
       "demo": "Demo",
       "responsive": "(Responsive Web)",
       "stack": [
-        { "name": "HTML" },
-        { "name": "CSS" },
-        { "name": "JavaScript" },
-        { "name": "Bootstrap Template" }
+        { "name": "html" },
+        { "name": "css" },
+        { "name": "javascript" },
+        { "name": "bootstrap-templates" }
+      ]
+    },
+    {
+      "id": 7,
+      "projectTitle": "Your Acivity",
+      "descProject": "Todo List app with rose theme 🌹",
+      "githubLink": "https://github.com/faruqmaulana/rose-theme-application",
+      "github": "GitHub",
+      "demoLink": "https://your-activity.vercel.app/",
+      "demo": "Demo",
+      "responsive": "(Responsive Web)",
+      "stack": [
+        { "name": "nextjs" },
+        { "name": "tailwindcss" },
+        { "name": "headless-ui" }
       ]
     }
   ]
