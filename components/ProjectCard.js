@@ -1,15 +1,9 @@
 import Image from "next/image";
-import api from "../public/projects/api.png";
-import merpp from "../public/projects/merpp.png";
-import covidAnxiety from "../public/projects/covid-anxiety.png";
-import covidBed from "../public/projects/covid-bed.png";
-import roseapp from "../public/projects/roseapp.png";
-import waniEkspor from "../public/projects/wani-ekspor.png";
-import kanalVirtual from "../public/projects/kanal-virtual.png";
 import { useState } from "react";
 
 export default function ProjectCard({
   idKey,
+  imgsrc,
   projectTitle,
   desc,
   responsive,
@@ -19,27 +13,17 @@ export default function ProjectCard({
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <div className="flex flex-col items-center justify-center rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-1 hover:shadow-lg hover:shadow-black">
+      <div
+        key={imgsrc.blurDataUrl}
+        className="flex flex-col items-center justify-center rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-1 hover:shadow-lg hover:shadow-black"
+      >
         <span
           onClick={() => setShowModal(true)}
           className="hover:cursor-pointer"
+          key={imgsrc.blurDataUrl}
         >
           <Image
-            src={
-              idKey === 1
-                ? api
-                : idKey === 2
-                ? merpp
-                : idKey === 3
-                ? kanalVirtual
-                : idKey === 4
-                ? covidAnxiety
-                : idKey === 5
-                ? covidBed
-                : idKey === 6
-                ? waniEkspor
-                : roseapp
-            }
+            src={imgsrc}
             alt={projectTitle}
             layout="intrinsic"
             placeholder="blur"
@@ -47,7 +31,10 @@ export default function ProjectCard({
             className="rounded-sm"
           ></Image>
         </span>
-        <div className="flex flex-col items-center text-center">
+        <div
+          key={imgsrc.src}
+          className="flex flex-col items-center text-center"
+        >
           <h2 className="mt-3 text-xl font-bold text-secondary">
             {projectTitle}
           </h2>
@@ -66,7 +53,10 @@ export default function ProjectCard({
               </>
             ))}
           </div>
-          <div className="mt-4 flex items-center justify-center">
+          <div
+            key={imgsrc.blurDataUrl}
+            className="mt-4 flex items-center justify-center"
+          >
             {children}
           </div>
         </div>
@@ -102,21 +92,7 @@ export default function ProjectCard({
                 {/*body*/}
                 <div className="sm:md-6 relative flex-auto p-2 md:p-6">
                   <Image
-                    src={
-                      idKey === 1
-                        ? api
-                        : idKey === 2
-                        ? merpp
-                        : idKey === 3
-                        ? kanalVirtual
-                        : idKey === 4
-                        ? covidAnxiety
-                        : idKey === 5
-                        ? covidBed
-                        : idKey === 6
-                        ? waniEkspor
-                        : roseapp
-                    }
+                    src={imgsrc}
                     alt={projectTitle}
                     layout="intrinsic"
                     placeholder="blur"

@@ -3,10 +3,10 @@ import ProjectCard from "../components/ProjectCard";
 import Button from "../components/Button";
 import Github from "../components/Github";
 import Demo from "../components/Demo";
-import data from "../data.json";
+import { projectsList } from "../utils/utils";
 
 export default function project() {
-  const projects = data.projects;
+  const projects = projectsList.projects;
   return (
     <>
       <Layout titlePage={"Projects | FM space"}>
@@ -20,6 +20,7 @@ export default function project() {
               {projects.map(
                 ({
                   id,
+                  image,
                   projectTitle,
                   descProject,
                   githubLink,
@@ -32,6 +33,7 @@ export default function project() {
                   <ProjectCard
                     key={projectTitle}
                     idKey={id}
+                    imgsrc={image}
                     projectTitle={projectTitle}
                     responsive={responsive}
                     desc={descProject}
