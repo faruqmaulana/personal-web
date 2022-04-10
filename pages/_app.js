@@ -15,11 +15,8 @@ Router.events.on("routeChangeError", () => NProgress.done());
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_GA_ID}`}
-      />
-      <Script strategy="lazyOnload">
+      <Script id="ga-tag" strategy="lazyOnload" src={process.env.NEXT_GA_TAG} />
+      <Script id="ga-id" strategy="lazyOnload">
         {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
