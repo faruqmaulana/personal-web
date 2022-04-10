@@ -14,13 +14,13 @@ export default function ProjectCard({
   return (
     <>
       <div
-        key={imgsrc.blurDataUrl}
+        key={projectTitle}
         className="flex flex-col items-center justify-center rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-1 hover:shadow-lg hover:shadow-black"
       >
         <span
           onClick={() => setShowModal(true)}
           className="hover:cursor-pointer"
-          key={imgsrc.blurDataUrl}
+          key={projectTitle}
         >
           <Image
             src={imgsrc}
@@ -64,7 +64,7 @@ export default function ProjectCard({
       {showModal && (
         <>
           <div
-            className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden outline-none focus:outline-none"
+            className="fixed inset-0 z-[60] flex items-center justify-center overflow-y-auto overflow-x-hidden outline-none focus:outline-none"
             onClick={() => setShowModal(false)}
           >
             <div className="relative my-6 mx-auto w-10/12 max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-5xl ">
