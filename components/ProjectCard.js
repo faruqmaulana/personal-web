@@ -38,9 +38,15 @@ export default function ProjectCard({
           <h2 className="mt-3 text-xl font-bold text-secondary">
             {projectTitle}
           </h2>
-          <p className={`text-xs sm:text-sm ${idKey !== 3 && "mb-2"}`}>
-            {responsive}
-          </p>
+          <p className={`mb-2 text-xs sm:text-sm`}>{responsive}</p>
+          {idKey === 2 && (
+            <p className="mb-2 text-[0.70rem] text-slate-300 sm:text-sm">
+              UNY 2022 educational technology application -{" "}
+              <span className="font-semibold italic text-slate-100">
+                the winner
+              </span>
+            </p>
+          )}
           {idKey === 3 && (
             <p className="mb-2 text-xs text-red-500 sm:text-sm">
               {"*note: reload page if serverless function has timeout"}
