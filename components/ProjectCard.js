@@ -38,7 +38,14 @@ export default function ProjectCard({
           <h2 className="mt-3 text-xl font-bold text-secondary">
             {projectTitle}
           </h2>
-          <p className="mb-2 text-xs sm:text-sm">{responsive}</p>
+          <p className={`text-xs sm:text-sm ${idKey !== 3 && "mb-2"}`}>
+            {responsive}
+          </p>
+          {idKey === 3 && (
+            <p className="mb-2 text-xs text-red-500 sm:text-sm">
+              {"*note: reload page if serverless function has timeout"}
+            </p>
+          )}
           <hr className="mb-3 w-full border-solid border-gray-600" />
           <p className="text-sm md:text-lg lg:text-lg">{desc}</p>
           <div className="mt-3 flex flex-wrap justify-center">

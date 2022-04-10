@@ -15,8 +15,8 @@ export default function project() {
             Projects
           </h1>
           <hr className="w-full border-solid border-gray-700 opacity-50 shadow-lg shadow-black" />
-          <div className="mx-auto my-10 h-full w-11/12 rounded-lg bg-skill-primary p-8 py-12 text-slate-300 shadow md:w-11/12 lg:w-full">
-            <div className="mt-5 mb-5 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
+          <div className="mx-auto my-10 h-full w-11/12 rounded-lg bg-skill-primary p-7 py-12 text-slate-300 shadow sm:p-8 md:w-11/12 md:p-8 lg:w-full">
+            <div className="mt-5 mb-5 grid grid-cols-1 gap-8 sm:gap-10 md:grid-cols-2 md:gap-10 lg:grid-cols-2">
               {projects.map(
                 ({
                   id,

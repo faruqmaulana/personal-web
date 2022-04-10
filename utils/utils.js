@@ -152,8 +152,9 @@ export const projectsList = {
     {
       id: 6,
       image: waniEkspor,
-      projectTitle: "Wani Ekspor",
-      descProject: "Import export company landing page.",
+      projectTitle: "Wani Fresh",
+      descProject:
+        "Export import company landing page. Build using bootstrap template",
       githubLink: "https://github.com/faruqmaulana/wani-ekspor",
       github: "GitHub",
       demoLink: "https://wanifresh.com/",
