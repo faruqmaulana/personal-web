@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       <hr className=" w-full border-solid border-gray-700 opacity-50 shadow-lg shadow-black" />
-      <footer className=" bg-primary">
+      <footer className="-mb-2 bg-primary">
         <div className="container flex justify-center">
           <div className="flex w-full flex-col items-center justify-center lg:max-w-screen-lg">
             <p className="pt-3 text-sm font-bold text-secondary">
@@ -16,7 +16,7 @@ export default function Footer() {
                 Faruq Maulana
               </a>
             </p>
-            <p className="mt-2 pb-3 text-sm text-primary1">with deep love 🤍</p>
+            <p className="mt-2 text-sm text-primary1">with deep love 🤍</p>
           </div>
         </div>
       </footer>
