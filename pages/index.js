@@ -18,7 +18,7 @@ export default function Home() {
                 objectFit="cover"
                 placeholder="blur"
                 layout="intrinsic"
-                className="rounded-full"
+                className="rounded-full transition-all duration-700 ease-in-out"
               ></Image>
             </span>
             <div className="align-center mx-auto mt-10 flex w-full flex-col items-center text-center text-secondary">

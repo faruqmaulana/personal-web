@@ -28,7 +28,7 @@ export default function ProjectCard({
             layout="intrinsic"
             placeholder="blur"
             quality="100"
-            className="rounded-sm"
+            className="rounded-sm transition-all duration-700 ease-in-out"
           ></Image>
         </span>
         <div
