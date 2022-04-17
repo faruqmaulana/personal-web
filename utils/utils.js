@@ -36,7 +36,7 @@ const SocialSeo = () => (
     url="https://fm-space.vercel.app"
     sameAs={[
       "http://www.facebook.com/100006480809914",
-      "http://instagram.com/faruqmaulanaa",
+      "http://instagram.com/faruq.maulanaa/",
     ]}
   />
 );
