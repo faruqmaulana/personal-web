@@ -24,8 +24,8 @@ const SEO = {
   },
   twitter: {
     cardType: "summary_large_image",
-    handle: "@promiseee123",
-    site: "@promiseee123",
+    handle: "@faruqmaulanaa",
+    site: "@faruqmaulanaa",
   },
   additionalMetaTags: [
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },

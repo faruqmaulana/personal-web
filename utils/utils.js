@@ -27,6 +27,21 @@ import covidBed from "../public/projects/covid-bed.png";
 import roseapp from "../public/projects/roseapp.png";
 import waniEkspor from "../public/projects/wani-ekspor.png";
 import kanalVirtual from "../public/projects/kanal-virtual.png";
+import { SocialProfileJsonLd } from "next-seo";
+
+const SocialSeo = () => (
+  <SocialProfileJsonLd
+    type="Person"
+    name="Faruq Maulana"
+    url="https://fm-space.vercel.app"
+    sameAs={[
+      "http://www.facebook.com/100006480809914",
+      "http://instagram.com/faruqmaulanaa",
+    ]}
+  />
+);
+
+export default SocialSeo;
 
 export const BASE_URL = "https://fm-space.vercel.app";
 

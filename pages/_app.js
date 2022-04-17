@@ -6,6 +6,7 @@ import "nprogress/nprogress.css";
 import Router from "next/router";
 import NProgress from "nprogress";
 import Script from "next/script";
+import SocialSeo from "../utils/utils";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeStart", () =>
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <DefaultSeo {...SEO} />
+      <SocialSeo />
       <Script
         id="ga-tag"
         strategy="lazyOnload"
