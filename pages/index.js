@@ -16,7 +16,7 @@ export default function Home() {
       <Layout titlePage={"FM space"}>
         <main className="container flex min-h-screen items-center justify-center lg:max-w-screen-lg">
           <div className="mt-16 flex h-full w-full flex-col items-center justify-center rounded-lg py-12">
-            <span>
+            <div className="max-h-[250px] max-w-[250px] overflow-hidden rounded-full">
               <Image
                 src={profile}
                 width={250}
@@ -25,10 +25,9 @@ export default function Home() {
                 quality="100"
                 objectFit="cover"
                 placeholder="blur"
-                layout="intrinsic"
-                className="rounded-full transition-all duration-1000 ease-in-out"
+                className="transition-all duration-1000 ease-in-out"
               ></Image>
-            </span>
+            </div>
             <div className="align-center mx-auto mt-10 flex w-full flex-col items-center text-center text-secondary">
               <h1 className="mb-3 text-lg font-bold md:text-2xl lg:text-2xl">
                 {"Hi! I'm Faruq Maulana 👋"}
