@@ -1,10 +1,18 @@
 import Image from "next/image";
-import profile from "../public/profile.jpeg";
+import getAge from "../lib/age";
 import Layout from "../components/Layout";
-//
+import profile from "../public/profile.jpeg";
+
+import { NextSeo } from "next-seo";
+import { BASE_URL } from "../utils/utils";
+
 export default function Home() {
+  const title = "FM space";
+  const url = `${BASE_URL}`;
+
   return (
     <>
+      <NextSeo title={title} canonical={url} openGraph={{ url, title }} />
       <Layout titlePage={"FM space"}>
         <main className="container flex min-h-screen items-center justify-center lg:max-w-screen-lg">
           <div className="mt-16 flex h-full w-full flex-col items-center justify-center rounded-lg py-12">
@@ -26,7 +34,7 @@ export default function Home() {
                 {"Hi! I'm Faruq Maulana 👋"}
               </h1>
               <h2 className="mb-5 text-sm font-bold md:text-lg lg:text-lg">
-                Frontend Web Developer, 19 years old.
+                Frontend Web Developer, {getAge()} years old.
               </h2>
               <hr className="mb-2 w-full border-solid border-slate-600 opacity-50" />
               <p className="px-2 text-sm leading-relaxed text-slate-300 sm:text-base">

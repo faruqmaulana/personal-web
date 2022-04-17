@@ -1,9 +1,15 @@
 import Layout from "../components/Layout";
-import { stack } from "../utils/utils";
+
+import { NextSeo } from "next-seo";
+import { BASE_URL, stack } from "../utils/utils";
 
 export default function skills() {
+  const title = "Skills";
+  const url = `${BASE_URL}/skills`;
+
   return (
     <>
+      <NextSeo title={title} canonical={url} openGraph={{ url, title }} />
       <Layout titlePage={"Skills | FM space"}>
         <main className="container flex min-h-screen flex-col items-center justify-center p-0 lg:max-w-screen-lg">
           <h1 className="mb-5 mt-[100px] text-xl font-bold text-slate-300 sm:text-3xl md:mt-[140px] lg:mt-[140px]">

@@ -1,14 +1,20 @@
+import Demo from "../components/Demo";
 import Layout from "../components/Layout";
-import ProjectCard from "../components/ProjectCard";
 import Button from "../components/Button";
 import Github from "../components/Github";
-import Demo from "../components/Demo";
-import { projectsList } from "../utils/utils";
+import ProjectCard from "../components/ProjectCard";
+
+import { NextSeo } from "next-seo";
+import { BASE_URL, projectsList } from "../utils/utils";
 
 export default function project() {
   const projects = projectsList.projects;
+  const title = "Projects";
+  const url = `${BASE_URL}/projects`;
+
   return (
     <>
+      <NextSeo title={title} canonical={url} openGraph={{ url, title }} />
       <Layout titlePage={"Projects | FM space"}>
         <main className="container flex min-h-screen flex-col items-center justify-center p-0 lg:max-w-screen-lg">
           <h1 className="mb-5 mt-[100px] text-xl font-bold text-slate-300 sm:text-3xl md:mt-[140px] lg:mt-[140px]">

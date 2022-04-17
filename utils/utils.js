@@ -28,6 +28,8 @@ import roseapp from "../public/projects/roseapp.png";
 import waniEkspor from "../public/projects/wani-ekspor.png";
 import kanalVirtual from "../public/projects/kanal-virtual.png";
 
+export const BASE_URL = "https://fm-space.vercel.app";
+
 export const stack = [
   { name: "HTML", img: <HTML /> },
   { name: "CSS", img: <CSS /> },

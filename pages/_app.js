@@ -1,8 +1,10 @@
 import "../styles/globals.css";
+import SEO from "../next-seo.config";
+import { DefaultSeo } from "next-seo";
 
-import "nprogress/nprogress.css"; //styles of nprogress//Binding events.
+import "nprogress/nprogress.css";
 import Router from "next/router";
-import NProgress from "nprogress"; //nprogress module
+import NProgress from "nprogress";
 import Script from "next/script";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
@@ -15,6 +17,7 @@ Router.events.on("routeChangeError", () => NProgress.done());
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <DefaultSeo {...SEO} />
       <Script
         id="ga-tag"
         strategy="lazyOnload"
