@@ -112,10 +112,10 @@ export const projectsList = {
     {
       id: 3,
       image: kanalVirtual,
-      projectTitle: "Kanal Virtual",
+      projectTitle: "KaVir (Kanal Virtual)",
       descProject:
         "A blog dedicated to writers so they can archive their writings.",
-      githubLink: "https://github.com/faruqmaulana/merpp-beta",
+      githubLink: "https://github.com/faruqmaulana/kanal-virtual",
       github: "GitHub",
       demoLink: "https://kanal-virtual.vercel.app/",
       demo: "Demo",
