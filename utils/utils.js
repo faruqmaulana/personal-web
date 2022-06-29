@@ -22,11 +22,13 @@ import Herokuapp from "../public/skills/heroku.svg";
 // project
 import api from "../public/projects/api.png";
 import merpp from "../public/projects/merpp.png";
-import covidAnxiety from "../public/projects/covid-anxiety.png";
-import covidBed from "../public/projects/covid-bed.png";
+import flight from "../public/projects/flight.png";
 import roseapp from "../public/projects/roseapp.png";
+import covidBed from "../public/projects/covid-bed.png";
 import waniEkspor from "../public/projects/wani-ekspor.png";
 import kanalVirtual from "../public/projects/kanal-virtual.png";
+import covidAnxiety from "../public/projects/covid-anxiety.png";
+
 import { SocialProfileJsonLd } from "next-seo";
 
 const SocialSeo = () => (
@@ -72,6 +74,24 @@ export const projectsList = {
   projects: [
     {
       id: 1,
+      image: flight,
+      projectTitle: "Tiketku",
+      descProject:
+        "Web application for booking airline tickets.",
+      githubLink: "https://github.com/faruqmaulana/project_uas/",
+      github: "GitHub",
+      demoLink: "https://your-ticket.herokuapp.com",
+      demo: "Demo",
+      responsive: "(Desktop only)",
+      stack: [
+        { name: "laravel 9" },
+        { name: "artisan" },
+        { name: "faker" },
+        { name: "model" },
+      ],
+    },
+    {
+      id: 2,
       image: api,
       projectTitle: "Jakarta Post API",
       descProject:
@@ -80,7 +100,7 @@ export const projectsList = {
       github: "GitHub",
       demoLink: "https://jakpost.vercel.app/api",
       demo: "Demo",
-      responsive: null,
+      responsive: (null),
       stack: [
         { name: "nextjs" },
         { name: "axios" },
@@ -91,7 +111,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       image: merpp,
       projectTitle: "Mérpp",
       descProject:
@@ -110,7 +130,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       image: kanalVirtual,
       projectTitle: "KaVir (Kanal Virtual)",
       descProject:
@@ -128,7 +148,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       image: covidAnxiety,
       projectTitle: "Covid Anxiety",
       descProject:
@@ -148,7 +168,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       image: covidBed,
       projectTitle: "Covid Bed Indo",
       descProject: "Web application to check hospital room availability.",
@@ -167,7 +187,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       image: waniEkspor,
       projectTitle: "Wani Fresh",
       descProject:
@@ -185,7 +205,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       image: roseapp,
       projectTitle: "Your Acivity",
       descProject: "Todo List app with rose theme 🌹",
