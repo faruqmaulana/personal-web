@@ -1,21 +1,4 @@
 {
   "presets": ["next/babel"],
-  "plugins": [
-    [
-      "inline-react-svg",
-      {
-        "svgo": {
-          "plugins": [
-            {
-              "removeAttrs": { "attrs": "(data-name)" }
-            },
-            {
-              "cleanupIDs": true
-            }
-          ]
-
-        }
-      }
-    ]
-  ]
+  "plugins": ["inline-react-svg"]
 }
