@@ -122,7 +122,7 @@ export const projectsList = {
       responsive: "(Mobile phone only)",
       stack: [
         { name: "nextjs" },
-        { name: "Strapi V3" },
+        { name: "strapi V3" },
         { name: "bootstrap 5" },
         { name: "styled-components" },
       ],
