@@ -5,7 +5,7 @@ export default function Navbar() {
   const router = useRouter().pathname;
   return (
     <>
-      <navbar className="fixed z-30 flex w-full items-center justify-center bg-transparent bg-primary shadow-lg backdrop-blur-lg">
+      <navbar is="x3d" className="fixed z-30 flex w-full items-center justify-center bg-transparent bg-primary shadow-lg backdrop-blur-lg">
         <div className="container">
           <div className="relative flex items-center justify-between lg:mx-auto lg:max-w-screen-lg">
             <div className="px-4">
