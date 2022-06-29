@@ -8,6 +8,7 @@ import ReactLogo from "../public/skills/react.svg";
 import Jquery from "../public/skills/jquery.svg";
 import Cheerio from "../public/skills/cheerio.svg";
 import NextJs from "../public/skills/nextjs.svg";
+import Laravel from "../public/skills/laravel.svg";
 import TailwindCSS from "../public/skills/tailwind.svg";
 import Bootstrap from "../public/skills/bootstrap.svg";
 import StyledComponents from "../public/skills/sc.svg";
@@ -58,6 +59,7 @@ export const stack = [
   { name: "jQuery", img: <Jquery /> },
   { name: "Cheerio", img: <Cheerio /> },
   { name: "NextJs", img: <NextJs /> },
+  { name: "Laravel", img: <Laravel /> },
   { name: "Tailwind CSS", img: <TailwindCSS /> },
   { name: "Bootstrap", img: <Bootstrap /> },
   { name: "Styled Components", img: <StyledComponents /> },
