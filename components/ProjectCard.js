@@ -56,14 +56,14 @@ export default function ProjectCard({
           <p className="text-sm md:text-lg lg:text-lg">{desc}</p>
           <div className="mt-3 flex flex-wrap justify-center">
             {stack.map(({ name }) => (
-              <>
+              <div key={name}>
                 <p
                   key={name}
                   className="space mx-1 rounded-lg bg-stack px-3 py-[3px] text-[8px] text-stack-color md:text-xs lg:text-xs"
                 >
                   {name}
                 </p>
-              </>
+              </div>
             ))}
           </div>
           <div
