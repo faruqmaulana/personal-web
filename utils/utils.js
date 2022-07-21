@@ -13,6 +13,7 @@ import TailwindCSS from "../public/skills/tailwind.svg";
 import Bootstrap from "../public/skills/bootstrap.svg";
 import StyledComponents from "../public/skills/sc.svg";
 import MySQL from "../public/skills/mysql.svg";
+import Prisma from "../public/skills/prisma.svg";
 import VisualStudioCode from "../public/skills/vsc.svg";
 import Git from "../public/skills/git.svg";
 import Github from "../public/skills/github.svg";
@@ -64,6 +65,7 @@ export const stack = [
   { name: "Bootstrap", img: <Bootstrap /> },
   { name: "Styled Components", img: <StyledComponents /> },
   { name: "MySQL", img: <MySQL /> },
+  // { name: "Prisma ORM", img: <Prisma /> },
   { name: "Git", img: <Git /> },
   { name: "Visual Studio Code", img: <VisualStudioCode /> },
   { name: "Github", img: <Github /> },

@@ -21,12 +21,11 @@ export default function skills() {
               {stack.map(({ name, img }) => (
                 <div
                   key={name}
-                  className="flex flex-col items-center rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:translate-y-1 hover:scale-105 hover:shadow-lg hover:shadow-black  md:hover:translate-y-2  lg:hover:translate-y-3"
+                  className="flex flex-col items-center rounded bg-skill-secondary p-5 shadow-lg duration-300 hover:shadow-lg hover:shadow-black "
                 >
                   <div>{img}</div>
                   {/* prettier-ignore */}
-                  <p className={`mt-2 text-center font-lexend font-bold ${
-                      name === "Visual Studio Code" ? "text-xs md:text-base lg:text-base" : name === "Tailwind CSS" ? "text-xs md:text-base lg:text-base" : name === "Styled Components" ? "text-xs sm:text-xs md:text-sm lg:text-base" : "text-sm md:text-lg lg:text-lg"}`}>
+                  <p className={`mt-2 text-center font-lexend font-bold ${name === "Visual Studio Code" ? "text-xs md:text-base lg:text-base" : name === "Tailwind CSS" ? "text-xs md:text-base lg:text-base" : name === "Styled Components" ? "text-xs sm:text-xs md:text-sm lg:text-base" : "text-sm md:text-lg lg:text-lg"}`}>
                     {name}
                   </p>
                 </div>
