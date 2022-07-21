@@ -31,7 +31,7 @@ import kanalVirtual from "../public/projects/kanal-virtual.png";
 import covidAnxiety from "../public/projects/covid-anxiety.png";
 
 import { SocialProfileJsonLd } from "next-seo";
-
+// seo
 const SocialSeo = () => (
   <SocialProfileJsonLd
     type="Person"
