@@ -74,7 +74,7 @@ export default function Home() {
                 </span>
                 <span className="text-slate-300 duration-300 hover:scale-95 hover:text-onhover">
                   <a
-                    href="https://twitter.com/promiseee123/"
+                    href="https://twitter.com/faruqmaulanaa/"
                     target="_blank"
                     rel="noreferrer"
                     title="faruqmaulana's twitter"

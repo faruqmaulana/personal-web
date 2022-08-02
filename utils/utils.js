@@ -65,7 +65,7 @@ export const stack = [
   { name: "Bootstrap", img: <Bootstrap /> },
   { name: "Styled Components", img: <StyledComponents /> },
   { name: "MySQL", img: <MySQL /> },
-  // { name: "Prisma ORM", img: <Prisma /> },
+  { name: "Prisma ORM", img: <Prisma /> },
   { name: "Git", img: <Git /> },
   { name: "Visual Studio Code", img: <VisualStudioCode /> },
   { name: "Github", img: <Github /> },
