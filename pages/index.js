@@ -48,9 +48,27 @@ export default function Home() {
                 }
               </p>
               <p className="mb-2 mt-5 p-2 px-7 text-sm leading-relaxed text-slate-300 sm:text-base">
-                {"My social media account, let's connect with me :"}
+                Contact me via <a href="mailto:faruqmaulana997@gmail.com" className="text-onhover">Email</a> {" and let's connect with me :"}
               </p>
               <div className="flex flex-row justify-center">
+                <span className="text-slate-300 duration-300 hover:scale-95 hover:text-onhover">
+                  <a
+                    href="https://linkedin.com/in/faruqmaulana"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="faruqmaulana's linkedin"
+                  >
+                    <svg
+                      width="1.2em"
+                      height="1.2em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 20 20"
+                      className="text-elucidator-700 dark:text-dark-repulser-400 mr-3 flex cursor-pointer text-3xl"
+                    >
+                      <path fill="currentColor" d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4zM7.65 13.979H5.706V7.723H7.65v6.256zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973zm8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699v3.699z" />
+                    </svg>
+                  </a>
+                </span>
                 <span className="text-slate-300 duration-300 hover:scale-95 hover:text-onhover">
                   <a
                     href="https://github.com/faruqmaulana/"
