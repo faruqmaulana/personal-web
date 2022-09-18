@@ -27,6 +27,7 @@ import merpp from "../public/projects/merpp.png";
 import flight from "../public/projects/flight.png";
 import roseapp from "../public/projects/roseapp.png";
 import covidBed from "../public/projects/covid-bed.png";
+import inventory from "../public/projects/inventory.png";
 import waniEkspor from "../public/projects/wani-ekspor.png";
 import kanalVirtual from "../public/projects/kanal-virtual.png";
 import covidAnxiety from "../public/projects/covid-anxiety.png";
@@ -78,6 +79,27 @@ export const projectsList = {
   projects: [
     {
       id: 1,
+      image: inventory,
+      projectTitle: "Inventory App",
+      descProject:
+        "Web application for stock management. Consists of two sides of the user, admin and employees.",
+      githubLink: null,
+      github: "GitHub",
+      demoLink: "https://your-inventory.vercel.app",
+      demo: "Demo",
+      responsive: "(Responsive Web)",
+      stack: [
+        { name: "nextjs" },
+        { name: "prisma ORM" },
+        { name: "postgresql" },
+        { name: "nextauth" },
+        { name: "restfull API" },
+        { name: "material ui" },
+        { name: "swift alert" },
+      ],
+    },
+    {
+      id: 2,
       image: flight,
       projectTitle: "Tiketku",
       descProject:
@@ -95,7 +117,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       image: api,
       projectTitle: "Jakarta Post API",
       descProject:
@@ -115,7 +137,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       image: merpp,
       projectTitle: "Mérpp",
       descProject:
@@ -134,7 +156,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       image: kanalVirtual,
       projectTitle: "KaVir (Kanal Virtual)",
       descProject:
@@ -152,7 +174,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       image: covidAnxiety,
       projectTitle: "Covid Anxiety",
       descProject:
@@ -172,7 +194,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       image: covidBed,
       projectTitle: "Covid Bed Indo",
       descProject: "Web application to check hospital room availability.",
@@ -191,7 +213,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       image: waniEkspor,
       projectTitle: "Wani Fresh",
       descProject:
@@ -209,7 +231,7 @@ export const projectsList = {
       ],
     },
     {
-      id: 8,
+      id: 9,
       image: roseapp,
       projectTitle: "Your Acivity",
       descProject: "Todo List app with rose theme 🌹",
