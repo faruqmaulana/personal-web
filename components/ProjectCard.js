@@ -39,7 +39,7 @@ export default function ProjectCard({
             {projectTitle}
           </h2>
           <p className={`mb-2 text-xs sm:text-sm`}>{responsive}</p>
-          {idKey === 3 && (
+          {projectTitle === 'Mérpp' && (
             <p className="mb-2 text-[0.70rem] text-slate-300 sm:text-sm">
               UNY 2022 educational technology application -{" "}
               <span className="font-semibold italic text-slate-100">
@@ -47,7 +47,7 @@ export default function ProjectCard({
               </span>
             </p>
           )}
-          {idKey === 4 && (
+          {projectTitle === "KaVir (Kanal Virtual)" && (
             <p className="mb-2 text-xs text-red-500 sm:text-sm">
               {"*note: reload page if serverless function has timeout"}
             </p>
