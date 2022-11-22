@@ -84,7 +84,7 @@ export const projectsList = {
       image: weatherApp,
       projectTitle: "Weather App",
       descProject:
-        "web application for weather forecasting",
+        "A web application for weather forecasting.",
       githubLink: "https://github.com/faruqmaulana/weather-app",
       github: "GitHub",
       demoLink: "https://weathers-cast.vercel.app/",
