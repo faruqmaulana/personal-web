@@ -1,25 +1,26 @@
-import HTML from "../public/skills/html.svg";
 import CSS from "../public/skills/css.svg";
-import JavaScript from "../public/skills/js.svg";
 import PHP from "../public/skills/php.svg";
+import Git from "../public/skills/git.svg";
+import HTML from "../public/skills/html.svg";
 import CPlus from "../public/skills/c++.svg";
 import Java from "../public/skills/java.svg";
-import ReactLogo from "../public/skills/react.svg";
-import Jquery from "../public/skills/jquery.svg";
-import Cheerio from "../public/skills/cheerio.svg";
-import NextJs from "../public/skills/nextjs.svg";
-import Laravel from "../public/skills/laravel.svg";
-import TailwindCSS from "../public/skills/tailwind.svg";
-import Bootstrap from "../public/skills/bootstrap.svg";
-import StyledComponents from "../public/skills/sc.svg";
 import MySQL from "../public/skills/mysql.svg";
+import JavaScript from "../public/skills/js.svg";
+import Jquery from "../public/skills/jquery.svg";
+import NextJs from "../public/skills/nextjs.svg";
 import Prisma from "../public/skills/prisma.svg";
-import VisualStudioCode from "../public/skills/vsc.svg";
-import Git from "../public/skills/git.svg";
 import Github from "../public/skills/github.svg";
 import Vercel from "../public/skills/vercel.svg";
+import ReactLogo from "../public/skills/react.svg";
+import Cheerio from "../public/skills/cheerio.svg";
+import Laravel from "../public/skills/laravel.svg";
 import Netlify from "../public/skills/netlify.svg";
 import Herokuapp from "../public/skills/heroku.svg";
+import Bootstrap from "../public/skills/bootstrap.svg";
+import StyledComponents from "../public/skills/sc.svg";
+import TailwindCSS from "../public/skills/tailwind.svg";
+import VisualStudioCode from "../public/skills/vsc.svg";
+import Typescript from "../public/skills/typescript.svg";
 
 // project
 import api from "../public/projects/api.png";
@@ -29,6 +30,7 @@ import roseapp from "../public/projects/roseapp.png";
 import covidBed from "../public/projects/covid-bed.png";
 import inventory from "../public/projects/inventory.png";
 import waniEkspor from "../public/projects/wani-ekspor.png";
+import weatherApp from "../public/projects/weather-app.jpg"
 import kanalVirtual from "../public/projects/kanal-virtual.png";
 import covidAnxiety from "../public/projects/covid-anxiety.png";
 
@@ -51,9 +53,10 @@ export default SocialSeo;
 export const BASE_URL = "https://fm-space.vercel.app";
 
 export const stack = [
+  { name: "Typescript", img: <Typescript /> },
+  { name: "JavaScript", img: <JavaScript /> },
   { name: "HTML", img: <HTML /> },
   { name: "CSS", img: <CSS /> },
-  { name: "JavaScript", img: <JavaScript /> },
   { name: "PHP", img: <PHP /> },
   { name: "C++", img: <CPlus /> },
   { name: "Java OOP", img: <Java /> },
@@ -78,7 +81,24 @@ export const stack = [
 export const projectsList = {
   projects: [
     {
-      id: 1,
+      image: weatherApp,
+      projectTitle: "Weather App",
+      descProject:
+        "web application for weather forecasting",
+      githubLink: "https://github.com/faruqmaulana/weather-app",
+      github: "GitHub",
+      demoLink: "https://weathers-cast.vercel.app/",
+      demo: "Demo",
+      responsive: "(Desktop only)",
+      stack: [
+        { name: "typescript" },
+        { name: "nextjs" },
+        { name: "react context API" },
+        { name: "rest API" },
+        { name: "tailwindcss" },
+      ],
+    },
+    {
       image: inventory,
       projectTitle: "Inventory App",
       descProject:
@@ -99,7 +119,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 2,
       image: flight,
       projectTitle: "Tiketku",
       descProject:
@@ -117,7 +136,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 3,
       image: api,
       projectTitle: "Jakarta Post API",
       descProject:
@@ -137,7 +155,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 4,
       image: merpp,
       projectTitle: "Mérpp",
       descProject:
@@ -156,7 +173,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 5,
       image: kanalVirtual,
       projectTitle: "KaVir (Kanal Virtual)",
       descProject:
@@ -174,7 +190,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 6,
       image: covidAnxiety,
       projectTitle: "Covid Anxiety",
       descProject:
@@ -194,7 +209,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 7,
       image: covidBed,
       projectTitle: "Covid Bed Indo",
       descProject: "Web application to check hospital room availability.",
@@ -213,7 +227,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 8,
       image: waniEkspor,
       projectTitle: "Wani Fresh",
       descProject:
@@ -231,7 +244,6 @@ export const projectsList = {
       ],
     },
     {
-      id: 9,
       image: roseapp,
       projectTitle: "Your Acivity",
       descProject: "Todo List app with rose theme 🌹",

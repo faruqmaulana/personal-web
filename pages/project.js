@@ -25,7 +25,6 @@ export default function project() {
             <div className="mt-5 mb-5 grid grid-cols-1 gap-8 sm:gap-10 md:grid-cols-2">
               {projects.map(
                 ({
-                  id,
                   image,
                   projectTitle,
                   descProject,
@@ -38,7 +37,6 @@ export default function project() {
                 }) => (
                   <ProjectCard
                     key={projectTitle}
-                    idKey={id}
                     imgsrc={image}
                     projectTitle={projectTitle}
                     responsive={responsive}
