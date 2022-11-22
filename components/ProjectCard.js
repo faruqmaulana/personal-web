@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function ProjectCard({
   imgsrc,
@@ -10,6 +10,11 @@ export default function ProjectCard({
   children,
 }) {
   const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    showModal ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'auto'
+  }, [showModal])
+
   return (
     <>
       <div
