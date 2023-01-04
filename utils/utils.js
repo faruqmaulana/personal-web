@@ -33,6 +33,7 @@ import waniEkspor from "../public/projects/wani-ekspor.png";
 import weatherApp from "../public/projects/weather-app.jpg"
 import kanalVirtual from "../public/projects/kanal-virtual.png";
 import covidAnxiety from "../public/projects/covid-anxiety.png";
+import kanalVirtualV2 from "../public/projects/kanalvirtual-v2.jpg";
 
 import { SocialProfileJsonLd } from "next-seo";
 // seo
@@ -81,6 +82,28 @@ export const stack = [
 export const projectsList = {
   projects: [
     {
+      image: kanalVirtualV2,
+      projectTitle: "KaVir (Kanal Virtual)",
+      descProject:
+        "A modern web application that I dedicate to writers. so they can archive their writings.",
+      githubLink: "https://github.com/faruqmaulana/kanal-virtual-v2",
+      github: "GitHub",
+      demoLink: "https://www.kanalvirtual.com/",
+      demo: "Demo",
+      responsive: "(Mobile phone only)",
+      stack: [
+        { name: "typescript" },
+        { name: "nextjs" },
+        { name: "datocms" },
+        { name: "webhooks" },
+        { name: "graphql" },
+        { name: "google cloud platform" },
+        { name: "useSWR" },
+        { name: "tailwindcss & sass" },
+        { name: "jest & rtl" },
+      ],
+    },
+    {
       image: weatherApp,
       projectTitle: "Weather App",
       descProject:
@@ -128,6 +151,7 @@ export const projectsList = {
       demoLink: "https://your-ticket.herokuapp.com",
       demo: "Demo",
       responsive: "(Desktop only)",
+      status: "unavailabe",
       stack: [
         { name: "laravel 9" },
         { name: "artisan" },
@@ -144,7 +168,7 @@ export const projectsList = {
       github: "GitHub",
       demoLink: "https://jakpost.vercel.app/api",
       demo: "Demo",
-      responsive: (null),
+      responsive: null,
       stack: [
         { name: "nextjs" },
         { name: "axios" },
@@ -174,7 +198,7 @@ export const projectsList = {
     },
     {
       image: kanalVirtual,
-      projectTitle: "KaVir (Kanal Virtual)",
+      projectTitle: "KaVir (Kanal Virtual) - OLD",
       descProject:
         "A blog dedicated to writers so they can archive their writings.",
       githubLink: "https://github.com/faruqmaulana/kanal-virtual",
@@ -182,6 +206,7 @@ export const projectsList = {
       demoLink: "https://kanal-virtual.vercel.app/",
       demo: "Demo",
       responsive: "(Mobile phone only)",
+      status: "unavailabe",
       stack: [
         { name: "nextjs" },
         { name: "strapi V3" },
@@ -199,6 +224,7 @@ export const projectsList = {
       demoLink: "https://covid-anxiety.herokuapp.com/",
       demo: "Demo",
       responsive: "(Responsive Web)",
+      status: "unavailabe",
       stack: [
         { name: "html" },
         { name: "css" },
@@ -217,6 +243,7 @@ export const projectsList = {
       demoLink: "https://covid-bed-indo.herokuapp.com/",
       demo: "Demo",
       responsive: "(Responsive Web)",
+      status: "unavailabe",
       stack: [
         { name: "html" },
         { name: "css" },

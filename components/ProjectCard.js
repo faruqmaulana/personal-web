@@ -8,6 +8,7 @@ export default function ProjectCard({
   responsive,
   stack,
   children,
+  status
 }) {
   const [showModal, setShowModal] = useState(false);
 
@@ -51,9 +52,9 @@ export default function ProjectCard({
               </span>
             </p>
           )}
-          {projectTitle === "KaVir (Kanal Virtual)" && (
+          {status && (
             <p className="mb-2 text-xs text-red-500 sm:text-sm">
-              {"*note: reload page if serverless function has timeout"}
+              {"*note: unavailable, because herokuapp is now a paid provider"}
             </p>
           )}
           <hr className="mb-3 w-full border-solid border-gray-600" />

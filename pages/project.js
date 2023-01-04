@@ -34,6 +34,7 @@ export default function project() {
                   demo,
                   responsive,
                   stack,
+                  status
                 }) => (
                   <ProjectCard
                     key={projectTitle}
@@ -42,6 +43,7 @@ export default function project() {
                     responsive={responsive}
                     desc={descProject}
                     stack={stack}
+                    status={status}
                   >
                     {githubLink !== null && (
                       <Button link={githubLink} desc={github}>
