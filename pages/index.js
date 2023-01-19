@@ -1,7 +1,7 @@
 import Image from "next/image";
 import getAge from "../lib/age";
 import Layout from "../components/Layout";
-import profile from "../public/profile.jpeg";
+import profile from "../public/new-profile.jpg";
 
 import { NextSeo } from "next-seo";
 import { BASE_URL } from "../utils/utils";
