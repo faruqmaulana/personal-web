@@ -10,6 +10,9 @@ export default function Home() {
   const title = "FM space";
   const url = `${BASE_URL}`;
 
+  // test cherry pick
+  console.log(url)
+
   return (
     <>
       <NextSeo title={title} canonical={url} openGraph={{ url, title }} />
