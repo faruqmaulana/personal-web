@@ -13,6 +13,8 @@ export default function Home() {
   // test cherry pick
   console.log(url)
 
+  // test cherry 2
+
   return (
     <>
       <NextSeo title={title} canonical={url} openGraph={{ url, title }} />
