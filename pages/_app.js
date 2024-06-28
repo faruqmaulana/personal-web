@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <DefaultSeo {...SEO} />
       <SocialSeo />
-      <Script
+      {/* <Script
         id="ga-tag"
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-917GNRTVQH`}
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
     
       gtag('config', 'G-917GNRTVQH');
         `}
-      </Script>
+      </Script> */}
       <Component {...pageProps} />;
     </>
   );
